@@ -1,0 +1,6 @@
+npm install electron concurrently wait-on
+npm install --save-dev @types/electron electron-builder
+npm run dev
+npm run package
+next build
+next export
