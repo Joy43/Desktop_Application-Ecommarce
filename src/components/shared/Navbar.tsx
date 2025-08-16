@@ -6,14 +6,14 @@ import { Input } from "@/components/ui/input";
 import { Search, Bell, User } from "lucide-react";
 import Link from "next/link";
 
-export const LandingpageNavbar = () => {
+export const Navbar = () => {
   return (
     <header className="bg-white border-b border-gray-200 shadow-sm">
       <div className="max-w-screen-xl mx-auto px-4 flex items-center justify-between h-14">
         {/* Logo */}
-        <div className="flex items-center gap-3">
+        {/* <div className="flex items-center gap-3">
           <span className="text-lg font-bold text-gray-800">MyApp</span>
-        </div>
+        </div> */}
 
         {/* Nav Links */}
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
